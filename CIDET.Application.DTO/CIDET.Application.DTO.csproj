@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="PermissionDTO.cs" />
+    <Compile Remove="RolPermissionDTO.cs" />
+  </ItemGroup>
+
+</Project>

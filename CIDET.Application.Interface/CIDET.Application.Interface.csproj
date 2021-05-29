@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CIDET.Application.DTO\CIDET.Application.DTO.csproj" />
+    <ProjectReference Include="..\CIDET.Domain.Entity\CIDET.Domain.Entity.csproj" />
+    <ProjectReference Include="..\CIDET.Transversal.Common\CIDET.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
